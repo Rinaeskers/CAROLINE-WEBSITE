@@ -1,0 +1,85 @@
+.room {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    width: 100%;
+    padding: 3%;
+    margin-top: 4%;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+}
+
+.room-1 {
+    width: 30%;
+    padding: 2%;
+}
+
+.room-1 img {
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.room-1 h2 {
+    color: #cc9900;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: 3%;
+    font-size: 180%;
+    margin-bottom: 3%;
+}
+
+.room-1 p {
+    word-spacing: 5px;
+    line-height: 2.0;
+}
+
+.room-1 ul {
+    margin-left: 10%;
+    line-height: 1.5;
+    margin-bottom: 3%;
+}
+
+.room-1 button {
+    width: 60%;
+    height: 6.5vh;
+    text-transform: uppercase;
+    margin-top: 4%;
+    border: 2px solid #cc9900;
+    background-color: #35203f;
+    color: #fff;
+}
+
+.room-1 button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #cc9900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

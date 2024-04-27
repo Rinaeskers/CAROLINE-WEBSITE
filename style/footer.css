@@ -1,0 +1,131 @@
+.foot {
+    display: flex;
+    align-items: top;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 6%;
+    background-color: #aaaaaa;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    font-size: 20px;
+}
+
+.foot h4 {
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+}
+
+.foot ul li {
+    list-style-type: none;
+}
+
+.foot-1 ul li {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 7%;
+}
+
+.foot-1 ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.foot-1 ul li a:hover {
+    text-decoration: underline;
+}
+
+.foot-2 p {
+    text-transform: capitalize;
+    word-spacing: 5px;
+    margin-bottom: 5%;
+}
+
+.foot-3 p {
+    word-spacing: 5px;
+}
+
+.foot-3 input[type="email"] {
+    margin-top: 7%;
+    height: 7vh;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #cc9900;
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: 120%;
+}
+
+.foot-3 button {
+    margin-top: 5%;
+    color: #fff;
+    border-radius: 10px;
+    width: 35%;
+    height: 7vh;
+    font-size: 100%;
+    border: 2px solid #cc9900;
+    text-transform: uppercase;
+    background-color: #473350;
+}
+
+.foot-3 button:hover {
+    cursor: pointer;
+    background-color: #cc9900;
+    color: white;
+}
+
+.foot-3 input::placeholder {
+    color: black;
+    font-size: 16px;
+  }
+
+.foot-3 input:focus {
+    background-color: #cc9900;
+    color: white;
+}
+
+.foot-3 ul li {
+    margin-top: 4%;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.5%;
+    background-color: #9b9995;
+    border-top: 2px solid #cc9900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+
+    <title>NYAIKA | HOME</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="images/jpg" href="images/fav.jpg">
+    <link rel="stylesheet" href="style/nav.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/contact.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/home.css">
+
+    <style>
+        .navbar {
+	padding-top: 6%;
+	display: flex;
+	justify-content: center;
+    position: absolute;
+    z-index: 50;
+    width: 80%;
+    margin-left: 8%;
+}
+  
+  nav ul li a, .dropbtn {
+    z-index: 50;
+  }
+
+.nav-head {
+  z-index: -1;
+}
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="slideshow-container">
+
+        <div class="navbar">
+            <div class="nav-content">
+                <nav>
+                    <ul>
+                        <li><a href="home.html" class="active">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li class="dropdown">
+                            <a href="rooms.html" class="dropbtn">rooms</a>
+                            <div class="dropdown-content">
+                                <a href="rooms.html#budget">budget rooms</a>
+                                <a href="rooms.html#standard">standard rooms</a>
+                                <a href="rooms.html#delux">delux rooms</a>
+                                <a href="rooms.html#twin">twin rooms</a>
+                                <a href="rooms.html#business">business</a>
+                                <a href="rooms.html#presidential">presidential</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                            <div class="dropdown-content">
+                                <a href="portfolio.html#semuliki">Semuliki</a>
+                                <a href="portfolio.html#rwenzori">rwenzori</a>
+                                <a href="portfolio.html#kibale">kibale</a>
+                                <a href="portfolio.html#nyaika">nyaika gardens</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="bars.html" class="dropbtn">restaurant & bars</a>
+                            <div class="dropdown-content">
+                                <a href="bars.html#aroma">aroma bistro</a>
+                                <a href="bars.html#enguli">enguli restaurant</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="contact.html" class="dropbtn">Contact</a>
+                            <div class="dropdown-content">
+                                <a href="contact.html#message">send message</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav-logo">
+                    <img src="images/logo-removebg-preview.png" alt="Logo">
+                </div>
+            </nav>
+    
+        </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="images/contact-1.jpg" style="width:100%">
+      <div class="text">
+        <h1 style="color: white; background-color: #0005;">Welcome to Fort Portal</h1>
+        <h3 style="color: white; background-color: #0005;">Discover Comfort on The Hills...</h3>
+        <button>book now</button>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="images/conf1.jpg" style="width:100%">
+      <div class="text">
+        <h1 style="color: #fff; background-color: #0005;">Esteemed Conference Rooms!</h1>
+        <button>book now</button>
+      </div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="images/conf2.jpg" style="width:100%">
+      <div class="text">
+        <h1 style="color: #fff; background-color: #0005;">Elegant Dining Rooms!</h1>
+        <button>book now</button>
+      </div>
+    </div>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+    }
+    </script>
+
+    <div class="home">
+
+        <div class="home-1">
+            <h4>stay with us</h4>
+            <h1>Stay with Us because...</h1>
+            <p>Nyaika hotel combines a perfect blend of country side setting and city life. Perched at the top of the hilly town of fort portal in an attractive, well contoured and manicured tropical gardens, Nyaika is perfect for both the business and leisure traveler with modern amenities which will ensure that your meetings and events are effortless and successful, whilst our leisure activities and commensurate service and ambience ensures that our guests experience the very best of Nyaika hospitality...</p>
+        </div>
+
+        <div class="home-2">
+            <img src="images/f_img_1.png" alt="image">
+        </div>
+
+    </div>    
+
+    <div class="home-3">
+        <h4>our luxurious rooms</h4>
+        <h1>Featured Room</h1>
+    </div>
+
+    <div class="home-4">
+
+        <div class="home-5">
+            <img src="images/r2.jpg" alt="image">
+            <h2>business suite</h2>
+            <p>4 Guests &nbsp; &nbsp; &nbsp; 110m<sup>2</sup></p>
+            <p>This suite represents the best Fort portal has to offer. With a space covering 60mSq. The Presidential Suite is that ideal space for your VIP guest or family that is looking for that premium product. The room is very spacious, comfortable and has a panoramic view of the hotel and its surroundings.</p>
+
+            <button>book now from $690</button>
+        </div>
+
+        <div class="home-6">
+            <img src="images/tumb3.jpg" alt="image">
+            <img src="images/r1.jpg" alt="image">
+        </div>
+
+    </div>
+
+    <div class="home-7">
+        <h4>facilities</h4>
+        <h1>Let us take care of your needs...</h1>
+
+        <div class="home-8">
+
+            <div class="home-8-1">
+                <img src="images/tumb1.jpg" alt="image">
+                <h4>CONFERENCE & BANQUETING</h4>
+                <hr />
+                <h2>The Rwenzori</h2>
+                <p>Equipped with mordern AudioVisual equipment, a strong air conditioning system and measuring 212sq.m the meeting room can seat 150 guests banquet or 200 theatre style.</p>
+                <button>
+                    <a href="#">read more</a>
+                </button>
+            </div>
+
+            <div class="home-8-1">
+                <img src="images/tumb2.jpg" alt="image">
+                <h4>RESTAURANTS & BARS</h4>
+                <hr />
+                <h2>Wine and Dine in Style...</h2>
+                <p>Formal restaurant, Showcases modern dining at its best with creative cuisine and fresh flavors merging local ingredients and cooking styles with an array of international specialties.</p>
+                <button>
+                    <a href="#">read more</a>
+                </button>
+            </div>
+
+            <div class="home-8-1">
+                <img src="images/tumb3.jpg" alt="image">
+                <h4>HEALTH & MORE</h4>
+                <hr />
+                <h2>Stay Healthy with us</h2>
+                <p>"Oasis Fitness Studio is a modern health club equipped with UpToDate facilities to fuel productive workouts and rejuvenation. The facilities include two outdoor pools for adults and kids, aerobics, gymnasium</p>
+                <button>
+                    <a href="#">read more</a>
+                </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <div class="foot">
+
+            <div class="foot-1">
+                <h4>useful links</h4>
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="conferences.html">conferences</a></li>
+                    <li><a href="bars.html">Restaurant & bars</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+
+            <div class="foot-2">
+                <h4>get social</h4>
+                <p>connect with us</p>
+                <p>
+                    <a href="#"><img src="images/icons8-facebook-26.png" alt="Facebook"></a>
+                    <a href="#"><img src="images/icons8-twitter-26.png" alt="Twitter"></a>
+                    <a href="#"><img src="images/icons8-instagram-26.png" alt="Instagram"></a>
+                    <a href="#"><img src="images/icons8-youtube-26.png" alt="Youtube"></a>
+                </p>
+                <br><br>
+                <h4>managed by</h4>
+                <p>
+                    <img src="images/management.jpg" alt="Management">
+                </p>
+            </div>
+
+            <div class="foot-3">
+                <h4>subscribe to our news letter</h4>
+                <p>Be the first to know what happens at Nyaika</p>
+                <input type="email" placeholder="Enter Email Address"><br>
+                <button>subscribe</button>
+                <br><br>
+                <h4>contact us</h4>
+                <ul>
+                    <li>24/7 Call us now</li>
+                    <li>+256 201 970 940</li>                    <li>+256 393 240 934</li>            
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="foot1">
+            <h4>Copyright @ Nyaika Hotel</h4>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <h4>BY CAROL RINAESKERS WEB DEVELOPER AND PROUND PROGRAMMER</h4>
+        </div>
+
+    </footer>
+</body>
+</html>

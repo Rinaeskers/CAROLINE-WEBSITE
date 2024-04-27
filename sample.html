@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style/sample.css">
+<link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+
+<div class="slideshow-container">
+
+    <div class="navbar">
+        <div class="nav-content">
+            <nav>
+                <ul>
+                    <li><a href="home.html" class="active">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li class="dropdown">
+                        <a href="rooms.html" class="dropbtn">rooms</a>
+                        <div class="dropdown-content">
+                            <a href="#">budget rooms</a>
+                            <a href="#">standard rooms</a>
+                            <a href="#">delux rooms</a>
+                            <a href="#">twin rooms</a>
+                            <a href="#">more</a>
+                        </div>
+                    <li class="dropdown">
+                        <a href="portfolio.html" class="dropbtn">Portfolio</a>
+                        <div class="dropdown-content">
+                            <a href="#">Semuliki</a>
+                            <a href="#">rwenzori</a>
+                            <a href="#">kibale</a>
+                            <a href="#">nyaika gardens</a>
+                        </div>
+                    <li class="dropdown">
+                        <a href="bars.html" class="dropbtn">restaurant & bars</a>
+                        <div class="dropdown-content">
+                            <a href="#">aroma bistro</a>
+                            <a href="#">enguli restaurant</a>
+                        </div>
+                    <li class="dropdown">
+                        <a href="contact.html" class="dropbtn">Contact</a>
+                        <div class="dropdown-content">
+                            <a href="contact.html#message">send message</a>
+                        </div>
+                </ul>
+            </div>
+            <div class="nav-logo">
+                <img src="images/logo-removebg-preview.png" alt="Logo">
+            </div>
+        </nav>
+
+    </div>
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="images/contact-1.jpg" style="width:100%">
+  <div class="text">
+    <h1 style="color: white; background-color: #0005;">Welcome to Fort Portal</h1>
+    <h3 style="color: white; background-color: #0005;">Discover Comfort on The Hills...</h3>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="images/conf1.jpg" style="width:100%">
+  <div class="text">
+    <h1 style="color: #fff; background-color: #0005;">Esteemed Conference Rooms!</h1>
+  </div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="images/conf2.jpg" style="width:100%">
+  <div class="text">
+    <h1 style="color: #fff; background-color: #0005;">Elegant Dining Rooms!</h1>
+  </div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 
